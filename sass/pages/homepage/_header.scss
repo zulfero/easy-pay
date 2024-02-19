@@ -1,0 +1,7 @@
+@use "../utilities/mixins.scss" as *;
+.nav__container {
+  @include flex(space-between, center);
+  &__right {
+
+  }
+}
