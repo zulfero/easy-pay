@@ -1,13 +1,12 @@
-@use "../utilities/mixins" as *;
-@use "../utilities/variables" as *;
-body{
-    background-color: red
-}
+// @use "../utilities/mixins" as *;
+// @use "../utilities/variables" as *;
+// body{
+//     background-color: red
+// }
 
-nav{
- &__left{
-    @include flex(space-between,center);
- }
+// nav{
+//  &__left{
+//     @include flex(space-between,center);
+//  }
 
- 
-}
+// }

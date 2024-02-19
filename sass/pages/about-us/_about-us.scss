@@ -1,0 +1,4 @@
+@use "../../utilities/mixins" as *;
+.about__us {
+  @include flex(space-around, center);
+}
