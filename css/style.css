@@ -1,12 +1,17 @@
+body {
+  background-image: url("../../../../../images/project images/money.jpeg");
+}
+
+.nav {
+  background-image: url("../../../../../images/project images/background.jpeg");
+}
 .nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url("images/project images/background.jpeg");
 }
-
 .nav__container ul {
   display: flex;
   justify-content: space-between;
@@ -16,14 +21,12 @@
   list-style-type: none;
   gap: 3em;
 }
-
+.nav__container ul li:hover a {
+  color: #00bf63;
+}
 .nav__container ul li a {
   text-decoration: none;
   color: black;
-}
-
-.nav__container ul li a:hover {
-  color: white;
 }
 
 * {

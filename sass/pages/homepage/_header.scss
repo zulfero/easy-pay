@@ -1,22 +1,32 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
-
-.nav__container {
-  @include flex(space-between,center);
-  background-image: url("images/project images/background.jpeg");
-
+body {
+  background-image: url("../../../../../images/project images/money.jpeg");
 }
-.nav__container ul{
-  @include flex(space-between,center);
-  list-style-type: none;
-  gap: 3em;
+
+.nav {
+  background-image: url("../../../../../images/project images/background.jpeg");
+  &__container {
+    @include flex(space-between, center);
+    ul {
+      @include flex(space-between, center);
+      list-style-type: none;
+      gap: 3em;
+      li {
+        &:hover {
+          a {
+            color: #00bf63;
+          }
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
   
 }
-.nav__container ul li a{
-  text-decoration: none;
-  color: black;
+.hero{
+  
 }
-.nav__container ul li a:hover{
-  color:white;
-}
-
