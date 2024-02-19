@@ -5,11 +5,29 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.nav__container__right {
+.nav__container_right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   list-style-type: none;
+  color: black;
 }
-.nav__container__right ul li {
-  text-align: center;
+
+.nav__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 2em;
+}
+
+.nav__container ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 * {
