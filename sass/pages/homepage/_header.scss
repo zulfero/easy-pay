@@ -1,8 +1,5 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
-body {
-  background-image: url("../../../../../images/project images/money.jpeg");
-}
 
 .nav {
   background-image: url("../../../../../images/project images/background.jpeg");
@@ -25,8 +22,15 @@ body {
       }
     }
   }
-  
 }
-.hero{
-  
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url("../../../images/edu.jpg") no-repeat center center/cover;
+}
+.hero__content {
+  @include flex(center, center, column);
+  color: white;
+  h1 {
+    font-weight: bold;
+  }
 }
