@@ -24,13 +24,16 @@
   }
 }
 .hero {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url("../../../images/edu.jpg") no-repeat center center/cover;
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/edu.jpg") no-repeat center center/cover;
 }
 .hero__content {
   @include flex(center, center, column);
   color: white;
   h1 {
+    font-weight: bold;
+  }
+  p{
     font-weight: bold;
   }
 }
