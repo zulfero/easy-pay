@@ -2,6 +2,6 @@
 .nav__container {
   @include flex(space-between, center);
   &__right {
-    list-style-type: none;
+
   }
 }
