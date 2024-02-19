@@ -1,7 +1,13 @@
-@use "../utilities/mixins.scss" as *;
-.nav__container {
-  @include flex(space-between, center);
-  &__right {
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+body{
+    background-color: red
+}
 
-  }
+nav{
+ &__left{
+    @include flex(space-between,center);
+ }
+
+ 
 }
