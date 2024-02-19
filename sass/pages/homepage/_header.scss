@@ -2,21 +2,21 @@
 @use "../../utilities/variables" as *;
 
 .nav__container {
-  @include flex(space-between, center);
+  @include flex(space-between,center);
+  background-image: url("images/project images/background.jpeg");
 
-  &_right ul{
-    @include flex(space-between,center);
-    list-style-type: none;
-    color: black;  
-  }
 }
 .nav__container ul{
   @include flex(space-between,center);
   list-style-type: none;
-  gap: 2em;
+  gap: 3em;
   
 }
 .nav__container ul li a{
   text-decoration: none;
   color: black;
 }
+.nav__container ul li a:hover{
+  color:white;
+}
+

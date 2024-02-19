@@ -4,15 +4,7 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-}
-.nav__container_right ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  color: black;
+  background-image: url("images/project images/background.jpeg");
 }
 
 .nav__container ul {
@@ -22,12 +14,16 @@
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
-  gap: 2em;
+  gap: 3em;
 }
 
 .nav__container ul li a {
   text-decoration: none;
   color: black;
+}
+
+.nav__container ul li a:hover {
+  color: white;
 }
 
 * {
