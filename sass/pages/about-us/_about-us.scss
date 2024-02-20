@@ -5,8 +5,7 @@
   background-position: center;
   background-size: cover;
   height: 110vh;
-  .container {
-  }
+  
   .path {
     font-weight: bold;
     font-size: x-large;
@@ -17,14 +16,11 @@
       color: #00bf63;
     }
   }
-
-
   }
 
-.hero {
+.about-us__mission {
   @include flex(center, center);
   margin-top: 2%;
-  gap: 10%;
   .about-us__stress {
     background-color: lightgrey;
     padding: 40px;
