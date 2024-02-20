@@ -1,3 +1,4 @@
+
 .nav {
   background: url("../../../../../images/project images/background.jpeg");
 }
@@ -122,4 +123,16 @@
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.about__us {
+  background-image: url("../images/project images/students.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.about__us .path {
+  font-weight: bold;
+  font-size: x-large;
 }
