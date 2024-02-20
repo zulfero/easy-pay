@@ -1,3 +1,119 @@
+
+.nav {
+  background: url("../../../../../images/project images/background.jpeg");
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+.nav--right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  list-style-type: none;
+  gap: 3em;
+}
+.nav--right ul li:hover a {
+  color: #00bf63;
+}
+.nav--right ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav__menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    background: aqua;
+  }
+  .nav--right {
+    display: none;
+  }
+  .nav__menu {
+    display: block;
+    z-index: 1;
+  }
+}
+.hero {
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/edu.jpg") no-repeat center center/cover;
+  margin-top: 3em;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  color: white;
+}
+.hero__content h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.hero__content p {
+  font-weight: bold;
+  margin-top: 2em;
+}
+.hero__content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  padding: 1em 2em;
+  border-radius: 2em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+.hero__content button:hover {
+  color: #00bf63;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  margin-top: 2em;
+}
+.main__content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  margin-bottom: 3em;
+}
+.main__content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  flex: 1;
+  margin-bottom: 5em;
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
