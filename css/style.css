@@ -1,5 +1,5 @@
 .nav {
-  background-image: url("../../../../../images/project images/background.jpeg");
+  background: url("../../../../../images/project images/background.jpeg");
 }
 .nav__container {
   display: flex;
@@ -8,7 +8,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.nav__container ul {
+.nav--right ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,28 +17,33 @@
   list-style-type: none;
   gap: 3em;
 }
-.nav__container ul li:hover a {
+.nav--right ul li:hover a {
   color: #00bf63;
 }
-.nav__container ul li a {
+.nav--right ul li a {
   text-decoration: none;
   color: black;
 }
+.nav__menu {
+  display: none;
+}
 
 @media screen and (max-width: 600px) {
-  .nav__menu {
-    display: none;
-  }
   .nav {
-    background-color: aqua;
+    background: aqua;
+  }
+  .nav--right {
+    display: none;
   }
   .nav__menu {
-    display: none;
+    display: block;
+    z-index: 1;
   }
 }
 .hero {
-  height: 70vh;
+  height: 40vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/edu.jpg") no-repeat center center/cover;
+  margin-top: 3em;
 }
 
 .hero__content {
@@ -50,10 +55,30 @@
   color: white;
 }
 .hero__content h1 {
+  text-align: center;
   font-weight: bold;
 }
 .hero__content p {
   font-weight: bold;
+  margin-top: 2em;
+}
+.hero__content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+  border-radius: 2em;
+  background-color: red;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .main__content {
@@ -63,7 +88,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 2em;
-  text-align: center;
+  flex: 1;
 }
 .main__content h1 {
   display: flex;
@@ -71,6 +96,17 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+.main__content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-bottom: 5em;
+  font-weight: bold;
 }
 
 * {
