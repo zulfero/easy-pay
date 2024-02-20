@@ -23,17 +23,17 @@
     }
   }
 }
-// @media screen and (max-width: 450px) {
-//   .header__nav--menu {
-//     display: none;
-//   }
-//   .header__nav {
-//     background-color: aqua;
-//   }
-//   .header__nav--right {
-//     display: none;
-//   }
-// }
+@media screen and (max-width: 600px) {
+  .nav__menu {
+    display: none;
+  }
+  .nav {
+    background-color: aqua;
+  }
+  .nav__menu {
+    display: none;
+  }
+}
 
 .hero {
   height: 70vh;
@@ -45,10 +45,17 @@
   color: white;
   h1 {
     font-weight: bold;
-    text-align: center;
   }
   p {
     font-weight: bold;
-    line-height: 2px;
+  }
+}
+.main__content {
+  @include flex(space-between, center);
+  margin-top: 2em;
+  text-align: center;
+
+  h1 {
+    @include flex(center, center);
   }
 }
