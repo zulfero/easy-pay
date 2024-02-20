@@ -10,9 +10,13 @@
 }
 
 .about__us {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  background-image: url("../images/project images/students.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.about__us .path {
+  font-weight: bold;
+  font-size: x-large;
 }

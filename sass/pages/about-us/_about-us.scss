@@ -1,4 +1,16 @@
 @use "../../utilities/mixins" as *;
 .about__us {
-  @include flex(space-around, center);
+  background-image: url("../images/project images/students.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .container{
+
+  }
+  .path {
+    font-weight:bold;
+    font-size:x-large;
+  }
+  
 }
