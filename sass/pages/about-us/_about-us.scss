@@ -4,13 +4,58 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  .container{
-
+  height: 110vh;
+  .container {
   }
   .path {
-    font-weight:bold;
-    font-size:x-large;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+
+    text-align: center;
+    .h1 {
+      color: #00bf63;
+    }
   }
-  
+
+
+  }
+
+.hero {
+  @include flex(center, center);
+  margin-top: 2%;
+  gap: 10%;
+  .about-us__stress {
+    background-color: lightgrey;
+    padding: 40px;
+    margin: 20px;
+  }
+  .about-us__sucess {
+    background-color: lightgrey;
+    padding: 40px;
+    margin: 20px;
+  }
+  .patners {
+    background-color: #000;
+    margin-top: 2%;
+    margin-bottom: 10em;
+  }
+}
+footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  font: 1.3em sans-serif;
+  .footer_cont {
+    @include flex(center, center);
+    // column-gap: 10rem;
+    color: #00bf63;
+    .social {
+      @include flex(space-between, center);
+      margin-top: 5%;
+      color: aliceblue;
+    }
+  }
 }
