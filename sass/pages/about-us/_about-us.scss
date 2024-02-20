@@ -1,4 +1,10 @@
 @use "../../utilities/mixins" as *;
+header{
+  background-color: gray;
+}
+nav{
+  margin-bottom: 50px;
+}
 .about__us {
   background-image: url("../images/project images/students.jpeg");
   background-repeat: no-repeat;
@@ -9,7 +15,7 @@
   .path {
     font-weight: bold;
     font-size: x-large;
-    color: white;
+    color:whitesmoke;
 
     text-align: center;
     .h1 {
@@ -19,23 +25,23 @@
   }
 
 .about-us__mission {
-  @include flex(center, center);
+  @include flex(center, center,);
   margin-top: 2%;
+  gap:5%;
   .about-us__stress {
     background-color: lightgrey;
     padding: 40px;
-    margin: 20px;
+    margin: 50px;
+    line-height: normal;
   }
   .about-us__sucess {
     background-color: lightgrey;
-    padding: 40px;
-    margin: 20px;
+    padding: 20px;
+    margin: 50px;
   }
-  .patners {
-    background-color: #000;
-    margin-top: 2%;
-    margin-bottom: 10em;
-  }
+}
+.patners {
+  @include flex(center, center,);
 }
 footer {
   background-color: #000;

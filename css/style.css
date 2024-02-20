@@ -6,14 +6,14 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
 }
 .nav--right ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   list-style-type: none;
   gap: 3em;
 }
@@ -51,7 +51,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   color: white;
 }
 .hero__content h1 {
@@ -67,7 +67,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   padding: 1em 2em;
   border-radius: 2em;
   text-align: center;
@@ -83,7 +83,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
 }
 
 .main__content {
@@ -91,7 +91,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   margin-top: 2em;
 }
 .main__content h1 {
@@ -99,7 +99,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   margin-bottom: 3em;
 }
 .main__content p {
@@ -107,7 +107,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   flex: 1;
   margin-bottom: 5em;
   font-weight: bold;
@@ -124,6 +124,14 @@
   margin: 0 auto;
 }
 
+header {
+  background-color: gray;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
 .about__us {
   background-image: url("../images/project images/students.jpeg");
   background-repeat: no-repeat;
@@ -134,7 +142,7 @@
 .about__us .path {
   font-weight: bold;
   font-size: x-large;
-  color: white;
+  color: whitesmoke;
   text-align: center;
 }
 .about__us .path .h1 {
@@ -146,23 +154,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   margin-top: 2%;
+  gap: 5%;
 }
 .about-us__mission .about-us__stress {
   background-color: lightgrey;
   padding: 40px;
-  margin: 20px;
+  margin: 50px;
+  line-height: normal;
 }
 .about-us__mission .about-us__sucess {
   background-color: lightgrey;
-  padding: 40px;
-  margin: 20px;
+  padding: 20px;
+  margin: 50px;
 }
-.about-us__mission .patners {
-  background-color: #000;
-  margin-top: 2%;
-  margin-bottom: 10em;
+
+.patners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -178,7 +191,7 @@ footer .footer_cont {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   color: #00bf63;
 }
 footer .footer_cont .social {
@@ -186,7 +199,7 @@ footer .footer_cont .social {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   margin-top: 5%;
   color: aliceblue;
 }
