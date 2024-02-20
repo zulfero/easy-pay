@@ -23,17 +23,32 @@
     }
   }
 }
+// @media screen and (max-width: 450px) {
+//   .header__nav--menu {
+//     display: none;
+//   }
+//   .header__nav {
+//     background-color: aqua;
+//   }
+//   .header__nav--right {
+//     display: none;
+//   }
+// }
+
 .hero {
-  height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/edu.jpg") no-repeat center center/cover;
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/edu.jpg") no-repeat center center/cover;
 }
 .hero__content {
   @include flex(center, center, column);
   color: white;
   h1 {
     font-weight: bold;
+    text-align: center;
   }
-  p{
+  p {
     font-weight: bold;
+    line-height: 2px;
   }
 }
