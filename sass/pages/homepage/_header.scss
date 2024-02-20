@@ -53,6 +53,8 @@
 .hero__content {
   @include flex(center, center, column);
   color: white;
+
+  
   h1 {
     text-align: center;
     font-weight: bold;
@@ -61,12 +63,18 @@
     font-weight: bold;
     margin-top: 2em;
   }
+  
   button {
-    @include flex(center,center);
+    @include flex(center, center);
     padding: 1em 2em;
     border-radius: 2em;
-  background-color:;
+    text-align: center;
+    background-color:grey;
+    color: white;
 
+  }
+  button:hover{
+color: #00bf63;
   }
 }
 .main {
@@ -75,7 +83,7 @@
 .main__content {
   @include flex(space-between, center);
   margin-top: 2em;
-  flex: 1;
+
   h1 {
     @include flex(center, center);
     margin-bottom: 3em;
@@ -85,5 +93,6 @@
     flex: 1;
     margin-bottom: 5em;
     font-weight: bold;
+    
   }
 }
