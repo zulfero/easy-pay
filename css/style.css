@@ -153,12 +153,16 @@ nav {
 .path {
   font-weight: bolder;
   font-size: x-large;
-
   color: black;
   text-align: center;
+  height: 100vh;
 }
 .path .h1 {
   color: #00bf63;
+}
+.path .path {
+  font-weight: bold;
+  font-size: x-large;
 }
 
 .about-us__mission {
@@ -276,5 +280,30 @@ body {
 }
 .form .bton:hover {
   color: #00bf63;
+}
 
+.conta .Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  gap: 4%;
+}
+.conta .Contact .forms input {
+  padding: 40px 40px;
+  width: 436px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
 }

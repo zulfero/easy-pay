@@ -1,0 +1,19 @@
+@use "../../utilities/mixins" as *;
+.conta
+.Contact {
+   @include flex(center, center);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  gap: 4%;
+  .forms input {
+    padding: 40px 40px;
+    width: 436px;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+}
+
+.textarea{
+    @include flex(center, center);
+text-align: center;
+}
