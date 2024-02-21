@@ -1,60 +1,67 @@
 @use "../../utilities/mixins" as *;
-header{
-  background-color:grey;
+header {
+  background-color: grey;
 }
-nav{
+nav {
   margin-bottom: 50px;
 }
 .about__us {
-  background-image: url("../images/pexels-rfstudio-3810792.jpg");
+  background-image: url("../../../images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 70vh;
-  
-}
-.path {
-  font-weight:bolder;
-  font-size:x-large;
-  color:black;
+  height: 90vh;
 
-  text-align: center;
-  .h1 {
-    color:#00bf63;
-  }
-  height: 100vh;
-  
   .path {
-    font-weight:bold;
-    font-size:x-large;
-
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
   }
+}
+
+.path {
+  font-weight: bold;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  height: 100vh;
+  margin: 5em;
+}
+
+.h1 {
+  color: #00bf63;
+}
+
+.path {
+  font-weight: bold;
+  font-size: x-large;
+}
 
 .about-us__mission {
-  @include flex(center, center,);
+  @include flex(center, center);
   margin-top: 2%;
-  gap:5%;
+  gap: 5%;
   font-weight: bold;
   font-size: medium;
   .about-us__stress {
-    background-color:black;
+    background-color: black;
     padding: 40px;
     margin: 50px;
     line-height: normal;
     color: aliceblue;
   }
   .about-us__sucess {
-    background-color:black;
+    background-color: black;
     padding: 20px;
     margin: 50px;
-    color:aliceblue;
+    color: aliceblue;
   }
 }
 .patners {
-  @include flex(center, center,);
+  @include flex(center, center);
 }
 footer {
-  background-color:black;
+  background-color: black;
   height: 20vh;
   font-size: large;
   font-weight: bold;

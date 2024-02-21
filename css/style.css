@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Kanit:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 .nav {
   background: url("../../../../../images/project images/background.jpeg");
 }
@@ -123,10 +124,17 @@
   }
 }
 
+body {
+  background-color: lightgrey;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
@@ -143,22 +151,34 @@ nav {
 }
 
 .about__us {
-  background-image: url("../images/pexels-rfstudio-3810792.jpg");
+  background-image: url("../../../images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 90vh;
+}
+.about__us .path {
+  font-weight: bold;
+  font-size: x-large;
+  color: black;
 }
 
 .path {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: x-large;
-
   color: black;
   text-align: center;
+  height: 100vh;
+  margin: 5em;
 }
-.path .h1 {
+
+.h1 {
   color: #00bf63;
+}
+
+.path {
+  font-weight: bold;
+  font-size: x-large;
 }
 
 .about-us__mission {
@@ -252,10 +272,6 @@ header {
   font-weight: bold;
 }
 
-body {
-  background-color: lightgrey;
-}
-
 .form__container {
   display: flex;
   justify-content: center;
@@ -276,5 +292,54 @@ body {
 }
 .form .bton:hover {
   color: #00bf63;
+}
 
+.register {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/reg.jpeg") no-repeat center center/cover;
+  height: 100vh;
+}
+.register__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.register input {
+  border: none;
+  padding: 2em 7em;
+  border-radius: 2em 2em;
+}
+.register label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.register--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav__container--radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+.nav__container--radio label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
 }

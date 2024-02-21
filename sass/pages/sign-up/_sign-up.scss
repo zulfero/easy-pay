@@ -1,8 +1,6 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
-body {
-  background-color: lightgrey;
-}
+
 
 .form {
   &__container {
