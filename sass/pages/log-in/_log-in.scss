@@ -1,0 +1,26 @@
+@use "../../utilities/mixins" as *;
+header {
+  background-color: lightgray;
+}
+.log-in {
+  @include flex(center, center);
+  margin-top: 2%;
+  margin-bottom: 5%;
+gap: 4%;
+  .forms input {
+    padding: 35px 40px;
+    width: 350px;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  .blu {
+    background-color: black;
+    padding: 10px;
+    width: 170px;
+    margin: 10px;
+    display: block;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+  }
+}

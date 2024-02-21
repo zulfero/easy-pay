@@ -1,14 +1,77 @@
 @use "../../utilities/mixins" as *;
+header{
+  background-color:grey;
+}
+nav{
+  margin-bottom: 50px;
+}
 .about__us {
-  background-image: url("../images/project images/students.jpeg");
+  background-image: url("../images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+<<<<<<< HEAD
   height: 100vh;
   
   .path {
     font-weight:bold;
     font-size:x-large;
   }
+=======
+  height: 70vh;
+>>>>>>> 8088a0a2261f256be27a1ba261d8351c24feca58
   
+}
+.path {
+  font-weight:bolder;
+  font-size:x-large;
+  color:black;
+
+  text-align: center;
+  .h1 {
+    color:#00bf63;
+  }
+  }
+
+.about-us__mission {
+  @include flex(center, center,);
+  margin-top: 2%;
+  gap:5%;
+  font-weight: bold;
+  font-size: medium;
+  .about-us__stress {
+    background-color:black;
+    padding: 40px;
+    margin: 50px;
+    line-height: normal;
+    color: aliceblue;
+  }
+  .about-us__sucess {
+    background-color:black;
+    padding: 20px;
+    margin: 50px;
+    color:aliceblue;
+  }
+}
+.patners {
+  @include flex(center, center,);
+}
+footer {
+  background-color:black;
+  height: 20vh;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  font: 1.3em sans-serif;
+  margin-top: 10em;
+  .footer_cont {
+    @include flex(center, center);
+    // column-gap: 10rem;
+    color: greenyellow;
+    .social {
+      @include flex(space-between, center);
+      margin-top: 5%;
+      color: white;
+    }
+  }
 }
