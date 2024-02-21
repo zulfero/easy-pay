@@ -297,7 +297,27 @@ body {
   width: 350px;
   margin: 20px;
   box-sizing: border-box;
-  border: none;
+  border: 4em;
+  border-radius: 4em;
+}
+.Contact .blu {
+  background-color: black;
+  padding: 10px;
+  width: 170px;
+  margin: 10px;
+  display: block;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 4em;
+  cursor: pointer;
+}
+.Contact .cols h1 {
+  color: green;
+}
+.Contact .requiments {
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .textarea {
@@ -306,4 +326,18 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.heading4 {
+  color: green;
+}
+
+.patnership {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  gap: 4%;
 }
