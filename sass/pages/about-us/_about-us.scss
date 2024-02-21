@@ -10,28 +10,41 @@ nav{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-<<<<<<< HEAD
-  height: 100vh;
+
+
   
   .path {
     font-weight:bold;
     font-size:x-large;
+    color: black;
   }
-=======
-  height: 70vh;
->>>>>>> 8088a0a2261f256be27a1ba261d8351c24feca58
-  
+
 }
+
+ 
+
+
 .path {
-  font-weight:bolder;
+  font-weight:bold;
   font-size:x-large;
   color:black;
-
   text-align: center;
+  height: 100vh;
+}
+
+
+
+  
   .h1 {
     color:#00bf63;
   }
+  
+  .path {
+    font-weight:bold;
+    font-size:x-large;
+
   }
+
 
 .about-us__mission {
   @include flex(center, center,);
