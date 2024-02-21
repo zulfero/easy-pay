@@ -1,6 +1,6 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
-body{
+body {
   background-color: lightgrey;
 }
 
@@ -10,13 +10,16 @@ body{
     gap: 3em;
     margin-top: 7em;
   }
-  input{
-    border:none;
+  input {
+    border: none;
     padding: 2em 7em;
   }
-  .bton{
+  .bton {
     padding: 2em 7em;
     background-color: black;
-    color:white;
+    color: white;
+  }
+  .bton:hover {
+    color: #00bf63;
   }
 }
