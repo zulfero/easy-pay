@@ -1,0 +1,25 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+body {
+  background-color: lightgrey;
+}
+
+.form {
+  &__container {
+    @include flex(center, center, column);
+    gap: 3em;
+    margin-top: 7em;
+  }
+  input {
+    border: none;
+    padding: 2em 7em;
+  }
+  .bton {
+    padding: 2em 7em;
+    background-color: black;
+    color: white;
+  }
+  .bton:hover {
+    color: #00bf63;
+  }
+}

@@ -73,6 +73,7 @@
   text-align: center;
   background-color: grey;
   color: white;
+  margin-top: 3em;
 }
 .hero__content button:hover {
   color: #00bf63;
@@ -112,6 +113,15 @@
   margin-bottom: 5em;
   font-weight: bold;
 }
+@media screen and (max-width: 600px) {
+  .main__content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+  }
+}
 
 * {
   margin: 0;
@@ -143,6 +153,7 @@ nav {
 .path {
   font-weight: bolder;
   font-size: x-large;
+
   color: black;
   text-align: center;
 }
@@ -239,4 +250,31 @@ header {
   color: aliceblue;
   font-size: larger;
   font-weight: bold;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3em;
+  margin-top: 7em;
+}
+.form input {
+  border: none;
+  padding: 2em 7em;
+}
+.form .bton {
+  padding: 2em 7em;
+  background-color: black;
+  color: white;
+}
+.form .bton:hover {
+  color: #00bf63;
+
 }

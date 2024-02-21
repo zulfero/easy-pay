@@ -84,6 +84,7 @@
     text-align: center;
     background-color:grey;
     color: white;
+    margin-top: 3em;
 
   }
   button:hover{
@@ -107,6 +108,11 @@ color: #00bf63;
     margin-bottom: 5em;
     font-weight: bold;
     
+  }
+  @media screen and (max-width: 600px) {
+    p {
+    @include flex(center,center,wrap)
+    }
   }
 }
 
