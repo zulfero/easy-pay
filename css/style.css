@@ -293,3 +293,28 @@ header {
 .form .bton:hover {
   color: #00bf63;
 }
+
+.register {
+  background: url("../../../images/land.jpeg") no-repeat center center/cover;
+  height: 100vh;
+}
+.register__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+.register input {
+  border: none;
+  padding: 2em 7em;
+}
+.register label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+}

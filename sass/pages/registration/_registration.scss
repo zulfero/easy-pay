@@ -1,2 +1,19 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
+
+.register {
+  background: url("../../../images/land.jpeg") no-repeat center center/cover;
+  height: 100vh;
+  &__container {
+    @include flex(center, center, column);
+    gap: 3em;
+  }
+  input {
+    border: none;
+    padding: 2em 7em;
+  }
+  label {
+    @include flex(flex-start, center);
+    gap: 2em;
+  }
+}
