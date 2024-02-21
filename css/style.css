@@ -167,6 +167,7 @@ nav {
   font-weight: bold;
   font-size: x-large;
   color: black;
+  margin-top: 1%;
   text-align: center;
   height: 100vh;
   margin: 5em;
@@ -187,7 +188,7 @@ nav {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 2%;
+  margin-bottom: 4%;
   gap: 5%;
   font-weight: bold;
   font-size: medium;
@@ -294,6 +295,7 @@ header {
   color: #00bf63;
 }
 
+
 .register {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/reg.jpeg") no-repeat center center/cover;
   height: 100vh;
@@ -320,6 +322,47 @@ header {
   gap: 2em;
 }
 .register--right {
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  gap: 1%;
+}
+.Contact .forms input {
+  padding: 20px 40px;
+  width: 350px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 4em;
+  border-radius: 4em;
+}
+.Contact .blu {
+  background-color: black;
+  padding: 10px;
+  width: 170px;
+  margin: 10px;
+  display: block;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 4em;
+  cursor: pointer;
+}
+.Contact .cols h1 {
+  color: green;
+}
+.Contact .requiments {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.textarea {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,10 +379,21 @@ header {
   margin-top: 2em;
 }
 .nav__container--radio label {
+
+.heading4 {
+  color: green;
+}
+
+.patnership {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+
   gap: 1em;
+
+  margin-top: 2%;
+  gap: 4%;
+
 }
