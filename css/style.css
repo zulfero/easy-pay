@@ -295,7 +295,7 @@ header {
 }
 
 .register {
-  background: url("../../../images/land.jpeg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/reg.jpeg") no-repeat center center/cover;
   height: 100vh;
 }
 .register__container {
@@ -304,7 +304,7 @@ header {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 3em;
+  gap: 2em;
 }
 .register input {
   border: none;
@@ -325,4 +325,21 @@ header {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.nav__container--radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+.nav__container--radio label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
 }
