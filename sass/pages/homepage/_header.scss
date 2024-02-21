@@ -1,7 +1,118 @@
-@use "../utilities/mixins.scss" as *;
-.nav__container {
-  @include flex(space-between, center);
-  &__right {
 
+// @use "../utilities/mixins" as *;
+// @use "../utilities/variables" as *;
+// body{
+//     background-color: red
+// }
+
+// nav{
+//  &__left{
+//     @include flex(space-between,center);
+//  }
+
+// }
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.nav {
+  // background-color: #00bf63;
+  background: url("../../../../../images/project images/background.jpeg");
+  &__container {
+    @include flex(space-between, center);
+  }
+  &--right {
+    ul {
+      @include flex(space-between, center);
+      list-style-type: none;
+      gap: 3em;
+      li {
+        &:hover {
+          a {
+            color: #00bf63;
+          }
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+  &__menu {
+    display: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .nav {
+    background: aqua;
+    // background-color: aqua;
+    &--right {
+      display: none;
+    }
+  }
+  .nav__menu {
+    display: block;
+    z-index: 1;
+  }
+}
+
+.hero {
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/edu.jpg") no-repeat center center/cover;
+  margin-top: 3em;
+}
+.hero__content {
+  @include flex(center, center, column);
+  color: white;
+
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  p {
+    font-weight: bold;
+    margin-top: 2em;
+  }
+  
+  button {
+    @include flex(center, center);
+    padding: 1em 2em;
+    border-radius: 2em;
+    text-align: center;
+    background-color:grey;
+    color: white;
+    margin-top: 3em;
+
+  }
+  button:hover{
+color: #00bf63;
+  }
+}
+.main {
+  @include flex(center, center);
+}
+.main__content {
+  @include flex(space-between, center);
+  margin-top: 2em;
+
+  h1 {
+    @include flex(center, center);
+    margin-bottom: 3em;
+  }
+  p {
+    @include flex(center, center);
+    flex: 1;
+    margin-bottom: 5em;
+    font-weight: bold;
+    
+  }
+  @media screen and (max-width: 600px) {
+    p {
+    @include flex(center,center,wrap)
+    }
+  }
+}
+
