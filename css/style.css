@@ -153,8 +153,8 @@ nav {
 .path {
   font-weight: bolder;
   font-size: x-large;
-
   color: black;
+  margin-top: 1%;
   text-align: center;
 }
 .path .h1 {
@@ -167,7 +167,7 @@ nav {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 2%;
+  margin-bottom: 4%;
   gap: 5%;
   font-weight: bold;
   font-size: medium;
@@ -276,5 +276,64 @@ body {
 }
 .form .bton:hover {
   color: #00bf63;
+}
 
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  gap: 1%;
+}
+.Contact .forms input {
+  padding: 20px 40px;
+  width: 350px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 4em;
+  border-radius: 4em;
+}
+.Contact .blu {
+  background-color: black;
+  padding: 10px;
+  width: 170px;
+  margin: 10px;
+  display: block;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 4em;
+  cursor: pointer;
+}
+.Contact .cols h1 {
+  color: green;
+}
+.Contact .requiments {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.heading4 {
+  color: green;
+}
+
+.patnership {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  gap: 4%;
 }
