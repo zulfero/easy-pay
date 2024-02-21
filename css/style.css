@@ -136,49 +136,25 @@
   font-size: x-large;
 }
 
-.nav__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: no-wrap;
-}
-.nav--right ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: no-wrap;
-  list-style-type: none;
-  gap: 3em;
-}
-.nav--right ul li:hover a {
-  color: #00bf63;
-}
-.nav--right ul li a {
-  text-decoration: none;
-  color: black;
-}
-.nav__menu {
-  display: none;
+body {
+  background-color: lightgrey;
 }
 
-@media screen and (max-width: 600px) {
-  .nav {
-    background: aqua;
-  }
-  .nav--right {
-    display: none;
-  }
-  .nav__menu {
-    display: block;
-    z-index: 1;
-  }
-}
 .form__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: no-wrap;
+  gap: 3em;
+  margin-top: 7em;
+}
+.form input {
+  border: none;
+  padding: 2em 7em;
+}
+.form .bton {
+  padding: 2em 7em;
+  background-color: black;
+  color: white;
 }
