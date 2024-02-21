@@ -1,26 +1,26 @@
 @use "../../utilities/mixins" as *;
 header{
-  background-color: gray;
+  background-color:grey;
 }
 nav{
   margin-bottom: 50px;
 }
 .about__us {
-  background-image: url("../images/project images/students.jpeg");
+  background-image: url("../images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 110vh;
+  height: 70vh;
   
-  .path {
-    font-weight: bold;
-    font-size: x-large;
-    color:whitesmoke;
+}
+.path {
+  font-weight:bolder;
+  font-size:xx-large;
+  color:aliceblue;
 
-    text-align: center;
-    .h1 {
-      color: #00bf63;
-    }
+  text-align: center;
+  .h1 {
+    color:#00bf63;
   }
   }
 
@@ -44,7 +44,7 @@ nav{
   @include flex(center, center,);
 }
 footer {
-  background-color: #000;
+  background-color:black;
   height: 15vh;
   font-size: large;
   font-weight: bold;
@@ -53,11 +53,11 @@ footer {
   .footer_cont {
     @include flex(center, center);
     // column-gap: 10rem;
-    color: #00bf63;
+    color: whitesmoke;
     .social {
       @include flex(space-between, center);
       margin-top: 5%;
-      color: aliceblue;
+      color: whitesmoke;
     }
   }
 }
