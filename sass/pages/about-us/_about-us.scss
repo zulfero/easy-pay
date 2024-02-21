@@ -15,8 +15,8 @@ nav{
 }
 .path {
   font-weight:bolder;
-  font-size:xx-large;
-  color:aliceblue;
+  font-size:x-large;
+  color:black;
 
   text-align: center;
   .h1 {
@@ -28,16 +28,20 @@ nav{
   @include flex(center, center,);
   margin-top: 2%;
   gap:5%;
+  font-weight: bold;
+  font-size: medium;
   .about-us__stress {
-    background-color: lightgrey;
+    background-color:black;
     padding: 40px;
     margin: 50px;
     line-height: normal;
+    color: aliceblue;
   }
   .about-us__sucess {
-    background-color: lightgrey;
+    background-color:black;
     padding: 20px;
     margin: 50px;
+    color:aliceblue;
   }
 }
 .patners {
@@ -45,19 +49,20 @@ nav{
 }
 footer {
   background-color:black;
-  height: 15vh;
+  height: 20vh;
   font-size: large;
   font-weight: bold;
   font-style: italic;
   font: 1.3em sans-serif;
+  margin-top: 10em;
   .footer_cont {
     @include flex(center, center);
     // column-gap: 10rem;
-    color: whitesmoke;
+    color: greenyellow;
     .social {
       @include flex(space-between, center);
       margin-top: 5%;
-      color: whitesmoke;
+      color: white;
     }
   }
 }

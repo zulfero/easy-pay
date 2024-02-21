@@ -3,13 +3,13 @@ header {
   background-color: lightgray;
 }
 .log-in {
-  @include flex(space-between, center);
+  @include flex(center, center);
   margin-top: 2%;
   margin-bottom: 5%;
-
+gap: 4%;
   .forms input {
     padding: 35px 40px;
-    width: 170px;
+    width: 350px;
     margin: 20px;
     box-sizing: border-box;
   }

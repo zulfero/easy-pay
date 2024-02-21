@@ -142,8 +142,8 @@ nav {
 
 .path {
   font-weight: bolder;
-  font-size: xx-large;
-  color: aliceblue;
+  font-size: x-large;
+  color: black;
   text-align: center;
 }
 .path .h1 {
@@ -158,17 +158,21 @@ nav {
   flex-wrap: wrap;
   margin-top: 2%;
   gap: 5%;
+  font-weight: bold;
+  font-size: medium;
 }
 .about-us__mission .about-us__stress {
-  background-color: lightgrey;
+  background-color: black;
   padding: 40px;
   margin: 50px;
   line-height: normal;
+  color: aliceblue;
 }
 .about-us__mission .about-us__sucess {
-  background-color: lightgrey;
+  background-color: black;
   padding: 20px;
   margin: 50px;
+  color: aliceblue;
 }
 
 .patners {
@@ -181,11 +185,12 @@ nav {
 
 footer {
   background-color: black;
-  height: 15vh;
+  height: 20vh;
   font-size: large;
   font-weight: bold;
   font-style: italic;
   font: 1.3em sans-serif;
+  margin-top: 10em;
 }
 footer .footer_cont {
   display: flex;
@@ -193,7 +198,7 @@ footer .footer_cont {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  color: whitesmoke;
+  color: greenyellow;
 }
 footer .footer_cont .social {
   display: flex;
@@ -202,25 +207,26 @@ footer .footer_cont .social {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 5%;
-  color: whitesmoke;
+  color: white;
 }
 
 header {
-  background-color: rgba(0, 255, 255, 0.808);
+  background-color: lightgray;
 }
 
 .log-in {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 2%;
   margin-bottom: 5%;
+  gap: 4%;
 }
 .log-in .forms input {
   padding: 35px 40px;
-  width: 450px;
+  width: 350px;
   margin: 20px;
   box-sizing: border-box;
 }
