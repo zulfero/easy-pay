@@ -309,6 +309,7 @@ header {
 .register input {
   border: none;
   padding: 2em 7em;
+  border-radius: 2em 2em;
 }
 .register label {
   display: flex;
@@ -317,4 +318,11 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2em;
+}
+.register--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
