@@ -154,15 +154,11 @@ nav {
   font-weight: bolder;
   font-size: x-large;
   color: black;
+  margin-top: 1%;
   text-align: center;
-  height: 100vh;
 }
 .path .h1 {
   color: #00bf63;
-}
-.path .path {
-  font-weight: bold;
-  font-size: x-large;
 }
 
 .about-us__mission {
@@ -171,7 +167,7 @@ nav {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 2%;
+  margin-bottom: 4%;
   gap: 5%;
   font-weight: bold;
   font-size: medium;
