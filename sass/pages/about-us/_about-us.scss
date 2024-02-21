@@ -19,7 +19,6 @@ nav {
   }
 }
 
-
 .path {
   font-weight: bold;
   font-size: x-large;
@@ -42,27 +41,27 @@ nav {
   @include flex(center, center);
   margin-top: 2%;
   gap: 5%;
-=======
+}
 .path {
-  font-weight:bolder;
-  font-size:x-large;
-  color:black;
-margin-top: 1%;
+  font-weight: bolder;
+  font-size: x-large;
+  color: black;
+  margin-top: 1%;
   text-align: center;
   .h1 {
-    color:#00bf63;
+    color: #00bf63;
   }
 }
-  // .path {
-  //   font-weight:bold;
-  //   font-size:x-large;
+// .path {
+//   font-weight:bold;
+//   font-size:x-large;
 
-  // }
+// }
 
 .about-us__mission {
-  @include flex(center, center,);
+  @include flex(center, center);
   margin-bottom: 4%;
-  gap:5%;
+  gap: 5%;
 
   font-weight: bold;
   font-size: medium;
