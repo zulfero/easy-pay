@@ -282,7 +282,7 @@ body {
   color: #00bf63;
 }
 
-.conta .Contact {
+.Contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,13 +290,14 @@ body {
   flex-wrap: wrap;
   margin-top: 2%;
   margin-bottom: 5%;
-  gap: 4%;
+  gap: 1%;
 }
-.conta .Contact .forms input {
-  padding: 40px 40px;
-  width: 436px;
+.Contact .forms input {
+  padding: 20px 40px;
+  width: 350px;
   margin: 20px;
   box-sizing: border-box;
+  border: none;
 }
 
 .textarea {
@@ -305,5 +306,4 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
 }
