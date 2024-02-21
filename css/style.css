@@ -124,6 +124,10 @@
   }
 }
 
+body {
+  background-color: lightgrey;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -147,10 +151,11 @@ nav {
 }
 
 .about__us {
-  background-image: url("../images/pexels-rfstudio-3810792.jpg");
+  background-image: url("../../../images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 90vh;
 }
 .about__us .path {
   font-weight: bold;
@@ -164,6 +169,7 @@ nav {
   color: black;
   text-align: center;
   height: 100vh;
+  margin: 5em;
 }
 
 .h1 {
@@ -235,8 +241,35 @@ footer .footer_cont .social {
   color: white;
 }
 
-body {
-  background-color: lightgrey;
+header {
+  background-color: lightgray;
+}
+
+.log-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  gap: 4%;
+}
+.log-in .forms input {
+  padding: 35px 40px;
+  width: 350px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+.log-in .blu {
+  background-color: black;
+  padding: 10px;
+  width: 170px;
+  margin: 10px;
+  display: block;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .form__container {
