@@ -153,8 +153,7 @@ nav {
 .path {
   font-weight: bolder;
   font-size: x-large;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 
 body {
@@ -181,10 +180,9 @@ body {
 }
 .form .bton:hover {
   color: #00bf63;
-=======
-=======
 
->>>>>>> 03e23c452ee15b1d647e84d7324fbc3b1172f344
+
+
   color: black;
   text-align: center;
 }
@@ -281,9 +279,7 @@ header {
   color: aliceblue;
   font-size: larger;
   font-weight: bold;
-<<<<<<< HEAD
->>>>>>> 8088a0a2261f256be27a1ba261d8351c24feca58
-=======
+
 }
 
 body {
@@ -311,5 +307,4 @@ body {
 .form .bton:hover {
   color: #00bf63;
 
->>>>>>> 03e23c452ee15b1d647e84d7324fbc3b1172f344
 }
