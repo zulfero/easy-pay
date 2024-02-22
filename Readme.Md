@@ -4,7 +4,7 @@
 ---
 Easy-pay is all about school fees stability and to enable learning to be easy and to avoid school drop out
 ## links
-Github Reposiory:
+Github Reposiory:https://github.com/zulfero/easy-pay
 Live Link:
 
 ## Screen shots
@@ -49,7 +49,7 @@ This how our project looks like
   
   ## project set-up and instalation
   1. open the terminal and navigate where you want to store the project eg `cd Desktop`.
-  2. to clone the github project paste this in the terminal ` `.
+  2. to clone the github project paste this in the terminal ` https://github.com/zulfero/easy-pay`.
   3. use `cd easy-pay` to enter to the project directory.
   4. open the project wih your favourite browser.
    
