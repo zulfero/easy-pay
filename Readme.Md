@@ -4,39 +4,43 @@
 ---
 Easy-pay is all about school fees stability and to enable learning to be easy and to avoid school drop out
 ## links
+Github Reposiory:
+Live Link:
 
 ## Screen shots
 This how our project looks like
 
-- nav-section
-![link]![Alt text](<images/Screenshot from 2024-02-22 10-04-46.png>)
- 
-- footer-section
-![link]![Alt text](<images/Screenshot from 2024-02-22 10-10-56.png>)
 ### Homepage
- - Hero-section
-  ![link]![Alt text](<images/Screenshot from 2024-02-22 10-30-49.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-04-46.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-30-49.png>)
+ 
+![Alt text](<images/Screenshot from 2024-02-22 10-10-56.png>)
 
-![link]![Alt text](<images/Screenshot from 2024-02-22   10-08-22.png>)
 
 
 ### log-in page
-![link]![Alt text](<images/Screenshot from 2024-02-22 10-40-11.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-04-46.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-40-11.png>)
+![Alt text](<images/Screenshot from 2024-02-22 12-24-47.png>)
 
 ### About-us
-
-![link](![Alt text](<images/Screenshot from 2024-02-22 10-46-00.png>))
-![link](![Alt text](<images/Screenshot from 2024-02-22 10-44-50.png>))
-
-![link](![Alt text](<images/Screenshot from 2024-02-22 10-46-47.png>))
-
+![Alt text](<images/Screenshot from 2024-02-22 10-04-46.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-46-00.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-44-50.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-46-47.png>)
+![Alt text](<images/Screenshot from 2024-02-22 12-24-47.png>)
 ### sign-up
-![link](![Alt text](<images/Screenshot from 2024-02-22 10-47-20.png>))
-
+![Alt text](<images/Screenshot from 2024-02-22 10-04-46.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-47-20.png>)
+![Alt text](<images/Screenshot from 2024-02-22 12-24-47.png>)
 ### registration
-![link](![Alt text](<images/Screenshot from 2024-02-22 10-48-25.png>))
+![Alt text](<images/Screenshot from 2024-02-22 10-04-46.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-48-25.png>)
+![Alt text](<images/Screenshot from 2024-02-22 12-24-47.png>)
 ### contact-us
-![link](![Alt text](<images/Screenshot from 2024-02-22 10-48-56.png>))
+![Alt text](<images/Screenshot from 2024-02-22 10-04-46.png>)
+![Alt text](<images/Screenshot from 2024-02-22 10-48-56.png>)
+![Alt text](<images/Screenshot from 2024-02-22 12-24-47.png>)
 
 
 ## Terms-used
