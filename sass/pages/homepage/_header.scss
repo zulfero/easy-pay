@@ -1,22 +1,10 @@
 
-// @use "../utilities/mixins" as *;
-// @use "../utilities/variables" as *;
-// body{
-//     background-color: red
-// }
-
-// nav{
-//  &__left{
-//     @include flex(space-between,center);
-//  }
-
-// }
-@use "../../utilities/mixins" as *;
-@use "../../utilities/variables" as *;
+@use "utilities/mixins" as *;
+@use "utilities/variables" as *;
 
 .nav {
   // background-color: #00bf63;
-  background: url("../../../../../images/project images/background.jpeg");
+  background: url("images/project images/background.jpeg");
   &__container {
     @include flex(space-between, center);
   }
