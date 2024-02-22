@@ -1,5 +1,5 @@
-@use "../../utilities/mixins" as *;
-@use "../../utilities/variables" as *;
+@use "utilities/mixins" as *;
+@use "utilities/variables" as *;
 
 .register {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
