@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Kanit:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 .nav {
-  background: url("../../../../../images/project images/background.jpeg");
+  background: url("images/project images/background.jpeg");
 }
 .nav__container {
   display: flex;
@@ -43,7 +43,7 @@
 }
 .hero {
   height: 40vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/edu.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/edu.jpg") no-repeat center center/cover;
   margin-top: 3em;
 }
 
@@ -151,7 +151,7 @@ nav {
 }
 
 .about__us {
-  background-image: url("../../../images/pexels-rfstudio-3810792.jpg");
+  background-image: url("images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -167,7 +167,6 @@ nav {
   font-weight: bold;
   font-size: x-large;
   color: black;
-  margin-top: 1%;
   text-align: center;
   height: 100vh;
   margin: 5em;
@@ -180,6 +179,27 @@ nav {
 .path {
   font-weight: bold;
   font-size: x-large;
+}
+
+.about-us__mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  gap: 5%;
+}
+
+.path {
+  font-weight: bolder;
+  font-size: x-large;
+  color: black;
+  margin-top: 1%;
+  text-align: center;
+}
+.path .h1 {
+  color: #00bf63;
 }
 
 .about-us__mission {
@@ -295,9 +315,8 @@ header {
   color: #00bf63;
 }
 
-
 .register {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/reg.jpeg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/reg.jpeg") no-repeat center center/cover;
   height: 100vh;
 }
 .register__container {
@@ -322,6 +341,29 @@ header {
   gap: 2em;
 }
 .register--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav__container--radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+.nav__container--radio label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+}
 
 .Contact {
   display: flex;
@@ -362,23 +404,12 @@ header {
 }
 
 .textarea {
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-.nav__container--radio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-top: 2em;
-}
-.nav__container--radio label {
 
 .heading4 {
   color: green;
@@ -390,10 +421,6 @@ header {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-
-  gap: 1em;
-
   margin-top: 2%;
   gap: 4%;
-
 }
