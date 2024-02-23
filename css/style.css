@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Kanit:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 .nav {
-  background: url("../../../../../images/project images/background.jpeg");
+  background: url("images/project images/background.jpeg");
 }
 .nav__container {
   display: flex;
@@ -43,7 +43,7 @@
 }
 .hero {
   height: 40vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/edu.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/edu.jpg") no-repeat center center/cover;
   margin-top: 3em;
 }
 
@@ -151,7 +151,7 @@ nav {
 }
 
 .about__us {
-  background-image: url("../../../images/pexels-rfstudio-3810792.jpg");
+  background-image: url("images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -189,15 +189,20 @@ nav {
   flex-wrap: wrap;
   margin-top: 2%;
   gap: 5%;
-}
 .about-us__mission .path {
+
+.path {
+
   font-weight: bolder;
   font-size: x-large;
   color: black;
   margin-top: 1%;
   text-align: center;
 }
+
 .about-us__mission .path .h1 {
+.path .h1 {
+
   color: #00bf63;
 }
 
@@ -316,7 +321,7 @@ header {
 }
 
 .register {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/reg.jpeg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/reg.jpeg") no-repeat center center/cover;
   height: 100vh;
 }
 .register__container {

@@ -6,7 +6,7 @@ nav {
   margin-bottom: 50px;
 }
 .about__us {
-  background-image: url("../../../images/pexels-rfstudio-3810792.jpg");
+  background-image: url("images/pexels-rfstudio-3810792.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -51,6 +51,16 @@ nav {
     .h1 {
       color: #00bf63;
     }
+}
+.path {
+  font-weight: bolder;
+  font-size: x-large;
+  color: black;
+  margin-top: 1%;
+  text-align: center;
+  .h1 {
+    color: #00bf63;
+
   }
 }
 // .path {
