@@ -1,8 +1,8 @@
-@use "utilities/mixins" as *;
-@use "utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
 
 .register {
-  background: url("images/reg.jpeg") no-repeat center center/cover;
+  background: url("../../../images/reg.jpeg") no-repeat center center/cover;
   height: 100vh;
 
   &__container {

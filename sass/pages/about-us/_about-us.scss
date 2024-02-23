@@ -1,4 +1,4 @@
-@use "utilities/mixins" as *;
+@use "../../utilities/mixins" as *;
 header {
   background-color: grey;
 }
@@ -65,8 +65,8 @@ nav {
   font-size: medium;
   .about-us__stress {
     background-color: black;
-    padding: 40px;
-    margin: 50px;
+    padding: 10px;
+    margin: 30px;
     line-height: normal;
     color: aliceblue;
   }

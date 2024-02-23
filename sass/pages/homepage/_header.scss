@@ -1,9 +1,8 @@
-
-@use "utilities/mixins" as *;
-@use "utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
 
 .nav {
-  background: url("images/project images/background.jpeg");
+  background: url("../../../../images/project images/background.jpeg");
   &__container {
     @include flex(space-between, center);
   }
@@ -47,14 +46,13 @@
 .hero {
   height: 40vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/edu.jpg") no-repeat center center/cover;
+    url("../../../images/edu.jpg") no-repeat center center/cover;
   margin-top: 3em;
 }
 .hero__content {
   @include flex(center, center, column);
   color: white;
 
-  
   h1 {
     text-align: center;
     font-weight: bold;
@@ -63,19 +61,18 @@
     font-weight: bold;
     margin-top: 2em;
   }
-  
+
   button {
     @include flex(center, center);
     padding: 1em 2em;
     border-radius: 2em;
     text-align: center;
-    background-color:grey;
+    background-color: grey;
     color: white;
     margin-top: 3em;
-
   }
-  button:hover{
-color: #00bf63;
+  button:hover {
+    color: #00bf63;
   }
 }
 .main {
@@ -94,12 +91,10 @@ color: #00bf63;
     flex: 1;
     margin-bottom: 5em;
     font-weight: bold;
-    
   }
   @media screen and (max-width: 600px) {
     p {
-    @include flex(center,center,wrap)
+      @include flex(center, center, wrap);
     }
   }
 }
-

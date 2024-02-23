@@ -1,4 +1,4 @@
-@use "utilities/mixins" as *;
+@use "../../utilities/mixins" as *;
 header {
   background-color: lightgray;
 }
@@ -6,7 +6,7 @@ header {
   @include flex(center, center);
   margin-top: 2%;
   margin-bottom: 5%;
-gap: 4%;
+  gap: 4%;
   .forms input {
     padding: 35px 40px;
     width: 350px;
