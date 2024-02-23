@@ -3,7 +3,6 @@
 @use "utilities/variables" as *;
 
 .nav {
-  // background-color: #00bf63;
   background: url("images/project images/background.jpeg");
   &__container {
     @include flex(space-between, center);
