@@ -41,6 +41,16 @@ nav {
   @include flex(center, center);
   margin-top: 2%;
   gap: 5%;
+
+  .path {
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+    margin-top: 1%;
+    text-align: center;
+    .h1 {
+      color: #00bf63;
+    }
 }
 .path {
   font-weight: bolder;
@@ -50,6 +60,7 @@ nav {
   text-align: center;
   .h1 {
     color: #00bf63;
+
   }
 }
 // .path {

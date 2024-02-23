@@ -189,16 +189,20 @@ nav {
   flex-wrap: wrap;
   margin-top: 2%;
   gap: 5%;
-}
+.about-us__mission .path {
 
 .path {
+
   font-weight: bolder;
   font-size: x-large;
   color: black;
   margin-top: 1%;
   text-align: center;
 }
+
+.about-us__mission .path .h1 {
 .path .h1 {
+
   color: #00bf63;
 }
 
@@ -310,6 +314,7 @@ header {
   padding: 2em 7em;
   background-color: black;
   color: white;
+  border-radius: 4em;
 }
 .form .bton:hover {
   color: #00bf63;
