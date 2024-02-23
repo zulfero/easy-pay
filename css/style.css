@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Kanit:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 .nav {
-  background: url("../../../../images/project images/background.jpeg");
+  background: url("https://raw.githubusercontent.com/zulfero/easy-pay/master/images/project%20images/background.jpeg");
 }
 .nav__container {
   display: flex;
@@ -43,7 +43,7 @@
 }
 .hero {
   height: 40vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/edu.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/zulfero/easy-pay/master/images/edu.jpg") no-repeat center center/cover;
   margin-top: 3em;
 }
 
@@ -321,7 +321,7 @@ header {
 }
 
 .register {
-  background: url("../../../images/reg.jpeg") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
   height: 100vh;
 }
 .register__container {

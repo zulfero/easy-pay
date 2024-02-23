@@ -2,7 +2,7 @@
 @use "../../utilities/variables" as *;
 
 .nav {
-  background: url("../../../../images/project images/background.jpeg");
+  background: url("https://raw.githubusercontent.com/zulfero/easy-pay/master/images/project%20images/background.jpeg");
   &__container {
     @include flex(space-between, center);
   }
@@ -46,7 +46,7 @@
 .hero {
   height: 40vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../images/edu.jpg") no-repeat center center/cover;
+    url("https://raw.githubusercontent.com/zulfero/easy-pay/master/images/edu.jpg") no-repeat center center/cover;
   margin-top: 3em;
 }
 .hero__content {
